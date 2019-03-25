@@ -1,0 +1,8 @@
+<h2>您已购买的书籍</h2>
+<ul class="main-frame">
+  <li *ngFor="let book of books" class="book-frame">  
+    <div>id：{{book.book_id}}</div>
+    <h3>名字：{{book.book_name}}</h3>
+    <div>作者：{{book.book_author}}</div>
+  </li>
+</ul>

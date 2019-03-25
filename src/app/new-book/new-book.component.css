@@ -1,0 +1,40 @@
+.main-frame {
+	position: absolute;
+	left: 50%;
+	width: 1200px;
+	height: 300px;
+	margin-left: -600px;
+	margin-top: 20px;
+	border: 1px solid #bbbbbb;
+}
+.book-input li {
+	margin-top: 15px;
+	list-style-type: none;
+}
+
+.book-input li span {
+	font-size: 20px;
+	float: left;
+}
+
+.book-input li input {
+	width: 300px;
+	margin-left: 10px;
+}
+
+.main-frame a {
+	margin-left: 40px;
+}
+nz-date-picker,
+nz-month-picker,
+nz-year-picker,
+nz-range-picker,
+nz-week-picker {
+	margin: 0 8px 12px 0;
+}
+nz-date-picker {
+	margin-left: 10px;
+}
+button {
+	margin-left: 40px;
+}

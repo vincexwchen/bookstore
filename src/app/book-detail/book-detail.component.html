@@ -1,0 +1,26 @@
+<div *ngIf="book">
+  <h2>{{book.book_name | uppercase}} Details</h2>
+  <div><span>id: </span>{{book.book_id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="book.book_name">
+    </label>
+  </div>
+  <div>
+    <label>author:
+      <input [(ngModel)]="book.book_author">
+    </label>
+  </div>
+  <div>
+    <label>pubilsh time:
+      <input [(ngModel)]="book.book_ptime">
+    </label>
+  </div>
+  <div>
+    <span>book cover: </span>
+    <img class="cover" src = {{book.book_cover}}>
+  </div>
+</div>
+
+<button (click)="goBack()">返回</button>
+<button (click)="save()">储存</button>

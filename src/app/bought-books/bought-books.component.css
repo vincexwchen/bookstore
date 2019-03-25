@@ -1,0 +1,25 @@
+h2 {
+	margin-top: 20px;
+	text-align: center;
+}
+img {
+	height: 170px;
+	width: 130px;
+}
+.main-frame {
+	width: 1200px;
+	height: 500px;
+	background-color: antiquewhite;
+	display: block;
+	margin: 20px auto;
+}
+.book-frame {
+	height: 300px;
+	width: 100px;
+	border-color: black;
+	border: 1px;
+	margin-left: 50px;
+	margin-top: 20px;
+	float: left;
+	list-style: none;
+}

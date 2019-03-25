@@ -1,0 +1,13 @@
+<h2>More Books</h2>
+<ul class="books">
+  <li *ngFor="let book of books" >
+    <a routerLink="/detail/{{book.book_id}}">
+      <span class="badge">{{book.book_id}}</span>{{book.book_name}}
+    </a> 
+    <button class="delete" title="delete book"
+    (click)="delete(book.book_id)">x</button>
+  </li>
+</ul>
+<a routerLink='/new-book'>
+  <button>添加书本</button>
+</a>
